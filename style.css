@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Montserrat", sans-serif;
+}
+section {
+  height: 500px;
+  padding-bottom: 150px;
+}
+h1 {
+  font-size: 50px;
+}
+h1 span {
+  color: orangered;
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 150px;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+#top-photo {
+  width: 80%;
+}
+.half-width img {
+  width: 75%;
+}
+.button {
+  text-decoration: none;
+  background-image: linear-gradient(orangered, orange);
+  color: white;
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+.about-area {
+  background-image: url(food-network-main/images/shapes/7.png);
+  margin: 0;
+  width: 1440px;
+  height: 600px;
+}
+.recipies-width {
+  width: 25%;
+  float: left;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-left: 1%;
+}
+.recipies-area h1 {
+  text-align: center;
+}
+.recipies-area div {
+  box-shadow: 5px 7px 30px gray;
+  height: 80%;
+}
+#recipies1 {
+  border: 7px solid white;
+  border-radius: 20px;
+  border-image-slice: 1;
+}
+#recipies2 {
+  border: 7px solid white;
+  border-radius: 20px;
+  border-image-slice: 1;
+}
+#recipies3 {
+  border: 7px solid white;
+  border-radius: 20px;
+  border-image-slice: 1;
+}
+footer h1 {
+  text-align: center;
+  background-color: gray;
+  width: 1440px;
+  height: 256px;
+}
