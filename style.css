@@ -22,7 +22,10 @@ h1 span {
   float: left;
   margin-left: 5%;
   padding-left: 2%;
-
+}
+#top-photo {
+  width: 80%;
+}
 .half-width img {
   width: 75%;
 }
@@ -75,7 +78,7 @@ section .cover-img {
 }
 footer h1 {
   text-align: center;
-  background-color: gray;
+  background-color: rgb(5, 5, 14);
   width: 1440px;
   height: 256px;
 }
