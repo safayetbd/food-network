@@ -22,10 +22,7 @@ h1 span {
   float: left;
   margin-left: 5%;
   padding-left: 2%;
-}
-#top-photo {
-  width: 80%;
-}
+
 .half-width img {
   width: 75%;
 }
@@ -56,6 +53,10 @@ h1 span {
 .recipies-area div {
   box-shadow: 5px 7px 30px gray;
   height: 80%;
+}
+section .cover-img {
+  width: 20%;
+  height: 20%;
 }
 #recipies1 {
   border: 7px solid white;
